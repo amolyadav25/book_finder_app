@@ -9,5 +9,5 @@ class BookEntity extends Equatable {
   List<Object?> get props => [title, author, coverId];
   String get thumbnailUrl => coverId != null
       ? 'https://covers.openlibrary.org/b/id/$coverId-M.jpg'
-      : 'https://via.placeholder.com/50x75';
+      : 'https://dummyimage.com/50x75/cccccc/ffffff&text=No+Image';
 }
