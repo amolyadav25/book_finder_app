@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
           BlocProvider<BookBloc>(
             create: (context) =>
                 BookBloc(s1())
-                  ..add(SearchBooks('flutter')),
+                  ..add(SearchBooks('as')),
           ),
           BlocProvider(
             create: (context) => DeviceInfoCubit(
